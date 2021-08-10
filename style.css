@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    /* background-image:url(images/planner.jpg);  */
+    /* background-color: #2e6f95; */
+    background-color: #F1FAEE;
+    height: 100vh;
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size:cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    /* background-image:url(images/yellow\ page.jpg); */
+    /* color: RGB (237, 233, 232); */
+    /* background-color: #EDE9E8; */
+    background-color: #277da1;
+    /* background-color: hotpink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height:auto;
+    border: 2px outset gray;
+    border-radius: 2%;
+    
+    
+    /* background-repeat:no-repeat;
+    background-size:cover;
+    align-self: center; */
+    
+
+}
+
+#input{
+    border: none;
+    border-radius: 2px;
+    height: 30px;
+    width: 200px;
+    padding: 10px;
+    /* color: grey; */
+    color: #EDF2F4;
+
+}
+input:focus{
+    outline: none;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+.btn{
+    height: 30px;
+    width: 120px;
+    font-weight: bold;
+    
+}
+li{
+    height: 40px;
+    width: 350px;
+    background-color: #00b4d8;
+    margin: 5px;
+    padding: 10px;
+    font-weight: bold;
+    list-style-type: none;
+    border-radius: 3px;
+}
