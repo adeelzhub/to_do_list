@@ -14,7 +14,7 @@ input.addEventListener("click",()=>{
     
 
 buttonAdd.addEventListener("click",()=>{
-    if(input.value != ""){
+    if(input.value != "" ){
         list.innerHTML+= `<li>${input.value}</li>`
         input.value = "Your Text";
         input.style.color = "grey";
